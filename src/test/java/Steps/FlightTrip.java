@@ -34,7 +34,7 @@ public void intin() {
  @AfterStep()
  public void teardown() {
  log.info("step ends");
- System.out.println("ends");
+
  }
     @Given("^Type of trip to be selected$")
     public void type_of_trip_to_be_selected() throws Throwable {
